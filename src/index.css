@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  /* display: flex; */
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url('./assets/background-img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(228, 236, 242);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.2em;
+  line-height: 1.1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0em;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.header {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 15px 10px;
+  background: rgba(251, 251, 251, 0.162);
+  box-shadow: 5px 5px 10px #8888882f;
+}
+.cardlist-cont {
+  display: flex;
+  margin: 5em;
+}
+
+th,
+td {
+  padding: 16px;
+}
+
+table {
+  margin:  auto;
+  background-color: #5f585898;
+  font-weight: 600;
+}
+
+input {
+  margin-top: 1em;
+}
+
+input {
+  margin-top: 1em;
+  border-radius: 15px; /* This will give the input field rounded corners */
+  padding: 10px; /* This adds some space inside the input field */
+  border: none; /* This removes the default border */
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06); /* This adds a subtle shadow effect */
+  transition: all 0.3s ease; /* This makes the changes animate smoothly */
+}
+
+input:focus {
+  outline: none; /* This removes the default outline on focus */
+  box-shadow: 0 0 5px 2px #646cff; /* This changes the shadow color on focus */
+}
