@@ -1,10 +1,6 @@
 # Web Development Project 5 - Weather Tracker
 
-Submitted by: **Nhi Huynh**
-
 This web app: **Data can tell interesting stories. I will create a data dashboard that provides an at-a-glance summary of information gathered from a public API. I chose a WeatherBit API and construct the weather forecast dashboard view. The dashboard view contains summary statistics and a list view of the data that can be searched and filtered.**
-
-Time spent: **7** hours spent in total
 
 ## Required Features
 
